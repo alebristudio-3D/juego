@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alebri - Prototipo Metroidvania</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="hero">
+      <p class="eyebrow">HTML5 + WebGL + Pixel Art</p>
+      <h1>Alebri</h1>
+      <p class="subtitle">
+        Prototipo de videojuego de plataformas oscuro, con alma de metroidvania y combate pesado.
+      </p>
+    </header>
+
+    <main class="game-layout">
+      <section class="game-panel">
+        <div id="game-root" aria-label="Juego Alebri"></div>
+      </section>
+
+      <aside class="info-panel">
+        <h2>Controles</h2>
+        <p><strong>Mover:</strong> A / D o Flechas</p>
+        <p><strong>Saltar:</strong> W, Flecha arriba o Espacio</p>
+        <p><strong>Atacar:</strong> J</p>
+        <p><strong>Esquivar:</strong> K</p>
+
+        <h2>Idea Base</h2>
+        <p>
+          El enfoque es un castillo en ruinas, lluvia fina, niebla, enemigos lentos pero peligrosos y
+          un movimiento con peso. Esta base ya esta preparada para crecer hacia jefes, mapa, upgrades
+          y zonas conectadas.
+        </p>
+      </aside>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/phaser@3.90.0/dist/phaser.min.js"></script>
+  <script src="./src/main.js"></script>
+</body>
+</html>
